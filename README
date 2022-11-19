@@ -1,0 +1,3 @@
+Commands:
+1. /MCTT_lb1/src/com/nure$ javac -cp jade.jar $(find . -name '*.java')
+2. MCTT_lb1/src$ java -cp /path/MCTT_lb1/src/com/nure/jade.jar:/path/MCTT_lb1/src/com/nure/: jade.Boot -gui -agents "buyerElliot:com.nure.BookBuyerAgent(Red Wheelbarrow);sellerDarlene:com.nure.BookSellerAgent;sellerTyrell:com.nure.BookSellerAgent"
